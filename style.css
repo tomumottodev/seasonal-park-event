@@ -337,3 +337,12 @@ h2 {
     gap: 10px;
   }
 }
+
+
+.fiction-note {
+  margin: 0 0 18px;
+  padding: 10px 12px;
+  border-left: 3px solid var(--green);
+  background: #f3f5f3;
+  color: var(--ink);
+}
