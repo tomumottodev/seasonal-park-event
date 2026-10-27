@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" role="img" aria-labelledby="title desc">
+  <title id="title">秋の公園の朝市</title>
+  <desc id="desc">色づいた木々と、芝生に並ぶ小さな朝市のテント</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#e5eee3"/>
+      <stop offset="1" stop-color="#f7edda"/>
+    </linearGradient>
+    <linearGradient id="grass" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#91a77a"/>
+      <stop offset="1" stop-color="#587958"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="560" fill="url(#sky)"/>
+  <circle cx="640" cy="105" r="46" fill="#f3c879" opacity=".8"/>
+  <path d="M0 312c102-69 181-44 275-6 117 47 196 27 282-18 92-49 164-47 243 4v268H0z" fill="#bdc99d"/>
+  <path d="M0 379c116-54 196-33 309 7 99 36 202 23 303-20 69-29 132-37 188-19v213H0z" fill="url(#grass)"/>
+  <g opacity=".96">
+    <path d="M90 337h19V205H90z" fill="#75533d"/><circle cx="100" cy="187" r="64" fill="#c96e43"/><circle cx="65" cy="211" r="42" fill="#d9914d"/><circle cx="133" cy="220" r="43" fill="#ad5b3c"/>
+    <path d="M681 334h21V183h-21z" fill="#75533d"/><circle cx="690" cy="166" r="70" fill="#d78b43"/><circle cx="650" cy="194" r="44" fill="#bd5c3c"/><circle cx="733" cy="207" r="45" fill="#e0a850"/>
+  </g>
+  <g fill="#e3b15f" opacity=".8">
+    <path d="M210 340c-13-17-10-33 3-45 17 10 19 26-3 45z"/><path d="M607 359c-13-17-10-33 3-45 17 10 19 26-3 45z"/><path d="M160 383c-13-17-10-33 3-45 17 10 19 26-3 45z"/>
+  </g>
+  <path d="M176 411h448v89H176z" fill="#e2c58d" opacity=".48"/>
+  <g transform="translate(235 258)">
+    <path d="M0 88 93 20l93 68v13H0z" fill="#f4f0e3"/>
+    <path d="M-8 88 93 11l101 77H-8z" fill="#a74f36"/>
+    <path d="M27 88V48l33-25v65z" fill="#e4bd77"/><path d="M60 88V23l33-12v77z" fill="#f5e8c8"/><path d="M93 11l34 12v65H93z" fill="#d57643"/><path d="M127 23l34 25v40h-34z" fill="#f5e8c8"/>
+    <path d="M12 88h162v104H12z" fill="#f2ead5"/>
+    <path d="M12 88h41v104H12zM94 88h40v104H94z" fill="#d8854e"/>
+    <path d="M0 190h186" stroke="#75533d" stroke-width="9" stroke-linecap="round"/>
+    <path d="M26 125h25M104 125h23M26 153h25M104 153h23" stroke="#fff8e9" stroke-width="7" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(498 318) scale(.72)">
+    <path d="M0 88 93 20l93 68v13H0z" fill="#f4f0e3"/>
+    <path d="M-8 88 93 11l101 77H-8z" fill="#506d57"/>
+    <path d="M27 88V48l33-25v65z" fill="#ead2a4"/><path d="M60 88V23l33-12v77z" fill="#f5e8c8"/><path d="M93 11l34 12v65H93z" fill="#84a07a"/><path d="M127 23l34 25v40h-34z" fill="#f5e8c8"/>
+    <path d="M12 88h162v104H12z" fill="#f2ead5"/>
+    <path d="M12 88h41v104H12zM94 88h40v104H94z" fill="#748c65"/>
+    <path d="M0 190h186" stroke="#75533d" stroke-width="9" stroke-linecap="round"/>
+  </g>
+  <g fill="#f5e8c8">
+    <path d="M374 429c-23-19-41-8-37 8 3 11 24 15 37 7 13 8 34 4 37-7 4-16-14-27-37-8z"/>
+    <path d="M418 437c-18-14-32-6-29 7 2 8 18 11 29 5 10 6 26 3 29-5 3-13-11-21-29-7z"/>
+  </g>
+  <g fill="#445f46">
+    <circle cx="320" cy="416" r="8"/><path d="M310 427h20l7 34h-34z"/>
+    <circle cx="460" cy="407" r="8"/><path d="M450 418h20l7 34h-34z"/>
+  </g>
+</svg>
