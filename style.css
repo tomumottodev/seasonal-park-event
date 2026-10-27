@@ -1,15 +1,15 @@
 @charset "UTF-8";
 
 :root {
-  --ink: #34382f;
-  --muted: #64675d;
-  --paper: #f5f2e9;
-  --green: #405847;
-  --rust: #b95438;
-  --rule: #c9c5b7;
+  --ink: #303833;
+  --muted: #626b65;
+  --paper: #ffffff;
+  --green: #3d624d;
+  --rust: #3d624d;
+  --rule: #d9dfdb;
   color: var(--ink);
   background: var(--paper);
-  font-family: "Hiragino Kaku Gothic ProN", "Yu Gothic", Meiryo, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Hiragino Kaku Gothic ProN", "Yu Gothic", Meiryo, sans-serif;
   font-size: 16px;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -54,10 +54,9 @@ a {
 
 .brand {
   color: var(--green);
-  font-family: "Yu Mincho", "Hiragino Mincho ProN", serif;
   font-size: 1.125rem;
   font-weight: 700;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.03em;
   text-decoration: none;
 }
 
@@ -83,8 +82,7 @@ a {
 .lead {
   margin: 0 0 14px;
   color: var(--rust);
-  font-family: "Yu Mincho", "Hiragino Mincho ProN", serif;
-  font-size: 1.125rem;
+  font-size: 1rem;
   font-weight: 700;
   line-height: 1.7;
 }
@@ -99,11 +97,10 @@ figure {
 h1 {
   margin-bottom: 20px;
   color: var(--green);
-  font-family: "Yu Mincho", "Hiragino Mincho ProN", serif;
-  font-size: clamp(3.25rem, 7vw, 5.5rem);
-  font-weight: 600;
-  letter-spacing: 0.12em;
-  line-height: 1.17;
+  font-size: clamp(2.25rem, 5vw, 3.25rem);
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  line-height: 1.25;
 }
 
 .hero-description {
@@ -125,7 +122,6 @@ h1 {
 
 .hero-date strong {
   color: var(--rust);
-  font-family: "Yu Mincho", "Hiragino Mincho ProN", serif;
   font-size: 1.25rem;
 }
 
@@ -137,35 +133,21 @@ h1 {
   position: relative;
   min-width: 0;
   margin: 0;
-  transform: rotate(-0.45deg);
-}
-
-.hero-photo::before {
-  position: absolute;
-  z-index: 1;
-  top: -7px;
-  left: 52%;
-  width: 72px;
-  height: 20px;
-  transform: rotate(2deg);
-  background: rgb(214 191 116 / 78%);
-  content: "";
 }
 
 .hero-photo img {
   display: block;
   width: 100%;
   height: auto;
-  border: 7px solid #fffdf8;
-  box-shadow: 0 8px 18px rgb(56 50 36 / 12%);
+  border: 1px solid var(--rule);
+  border-radius: 6px;
 }
 
 .hero-photo figcaption {
   margin: 11px 4px 0;
   color: var(--muted);
-  font-family: "Yu Mincho", "Hiragino Mincho ProN", serif;
   font-size: 0.875rem;
-  text-align: right;
+  text-align: left;
 }
 
 .section-wrap {
@@ -181,9 +163,8 @@ h1 {
 h2 {
   margin-bottom: 18px;
   color: var(--green);
-  font-family: "Yu Mincho", "Hiragino Mincho ProN", serif;
-  font-size: 1.625rem;
-  font-weight: 600;
+  font-size: 1.5rem;
+  font-weight: 700;
   line-height: 1.5;
 }
 
@@ -197,7 +178,7 @@ h2 {
   grid-template-columns: 112px minmax(0, 1fr);
   gap: 16px;
   padding: 15px 0;
-  border-bottom: 1px dashed var(--rule);
+  border-bottom: 1px solid var(--rule);
 }
 
 .detail-row dt {
@@ -220,7 +201,7 @@ h2 {
   gap: 10px;
   margin-top: 20px;
   padding-bottom: 3px;
-  border-bottom: 2px solid #d0ae60;
+  border-bottom: 1px solid var(--green);
   color: var(--green);
   font-weight: 700;
   text-decoration: none;
@@ -229,7 +210,7 @@ h2 {
 .map-link:hover,
 .map-link:focus-visible {
   color: var(--rust);
-  border-color: var(--rust);
+  border-color: var(--ink);
 }
 
 .map-link span {
@@ -238,8 +219,8 @@ h2 {
 
 .note {
   padding: 27px 0 32px;
-  border-top: 1px dashed var(--rule);
-  border-bottom: 1px dashed var(--rule);
+  border-top: 1px solid var(--rule);
+  border-bottom: 1px solid var(--rule);
 }
 
 .note h2 {
@@ -289,7 +270,6 @@ h2 {
 
 .site-footer p:first-child {
   color: var(--green);
-  font-family: "Yu Mincho", "Hiragino Mincho ProN", serif;
   font-weight: 700;
 }
 
@@ -316,7 +296,7 @@ h2 {
   }
 
   h1 {
-    font-size: clamp(3.25rem, 15vw, 4.25rem);
+    font-size: 2rem;
   }
 
   .hero-description {
